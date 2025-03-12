@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SLxycwDopzwZL9hrfXsat3pE1ubm048EoZ8ll9bLrjY+J7XfUk11OqYsvjWYeU2deiMXF6mvmLbih7tWspApqw==",
+  "dgSpecHash": "MpZ5pZmdssdP+/Oneo81m+wZ0xjamhI7aarltb4kPtFNZ/ytLX1p0Vxf7t3OX6IHTatPOF+YzFpTmwzLkDhJ0g==",
   "success": true,
-  "projectFilePath": "/Users/dherbert/openAPIdotnet/web.csproj",
+  "projectFilePath": "/Users/dherbert/openAPIdotnet/web/web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

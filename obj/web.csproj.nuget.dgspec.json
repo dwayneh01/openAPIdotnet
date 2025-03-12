@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dherbert/openAPIdotnet/web.csproj": {}
+    "/Users/dherbert/openAPIdotnet/web/web.csproj": {}
   },
   "projects": {
-    "/Users/dherbert/openAPIdotnet/web.csproj": {
+    "/Users/dherbert/openAPIdotnet/web/web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dherbert/openAPIdotnet/web.csproj",
+        "projectUniqueName": "/Users/dherbert/openAPIdotnet/web/web.csproj",
         "projectName": "web",
-        "projectPath": "/Users/dherbert/openAPIdotnet/web.csproj",
+        "projectPath": "/Users/dherbert/openAPIdotnet/web/web.csproj",
         "packagesPath": "/Users/dherbert/.nuget/packages/",
-        "outputPath": "/Users/dherbert/openAPIdotnet/obj/",
+        "outputPath": "/Users/dherbert/openAPIdotnet/web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dherbert/.nuget/NuGet/NuGet.Config"
