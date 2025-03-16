@@ -1,7 +1,8 @@
 
-using System.Diagnostics;
+using Microsoft.Extensions.Logging;
 
 namespace openAPIdotnet.Data;
+
 public class WeatherForecastService
 {
     private static readonly string[] Summaries = new[]

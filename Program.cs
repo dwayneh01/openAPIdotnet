@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using openAPIdotnet.Data;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole(); // Log to console
+builder.Logging.AddDebug();   // Log to debug output
+builder.Logging.AddAzureWebAppDiagnostics(); // Log to Azure App Service
 
 var app = builder.Build();
 
